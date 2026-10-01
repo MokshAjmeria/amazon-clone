@@ -1,0 +1,173 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Clone</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+    <!-- ================= MAIN HEADER ================= -->
+
+    <header class="main-header">
+
+        <!-- Amazon Logo -->
+        <div class="logo-section">
+            <img src="{% static 'images/logo.png' %}" alt="Amazon">
+        </div>
+
+
+        <!-- Location -->
+        <div class="location-section">
+
+            <div class="location-icon">
+                📍
+            </div>
+
+            <div>
+                <span class="location-small">
+                    Delivering to Sonipat 131001
+                </span>
+
+                <strong>
+                    Update location
+                </strong>
+            </div>
+
+        </div>
+
+
+        <!-- Search -->
+        <div class="search-section">
+
+            <select>
+                <option>All</option>
+            </select>
+
+            <input
+                type="text"
+                placeholder="Search Amazon.in"
+            >
+
+            <button>
+                🔍
+            </button>
+
+        </div>
+
+
+        <!-- Language -->
+        <div class="language-section">
+
+            <span>🇮🇳</span>
+            <strong>EN</strong>
+            <span class="arrow">▼</span>
+
+        </div>
+
+
+        <!-- Account -->
+        <div class="account-section">
+
+            <span>Hello, sign in</span>
+
+            <strong>
+                Account & Lists
+            </strong>
+
+        </div>
+
+
+        <!-- Orders -->
+        <div class="orders-section">
+
+            <span>Returns</span>
+
+            <strong>
+                & Orders
+            </strong>
+
+        </div>
+
+
+        <!-- Cart -->
+        <div class="cart-section">
+
+            <span class="cart-icon">🛒</span>
+
+            <strong>
+                Cart
+            </strong>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= NAVIGATION BAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="nav-item all-menu">
+            ☰
+            <strong>All</strong>
+        </div>
+
+        <div class="nav-item">Amazon Pay</div>
+
+        <div class="nav-item">Mobiles</div>
+
+        <div class="nav-item">Today's Deals</div>
+
+        <div class="nav-item">Coupons</div>
+
+        <div class="nav-item">Flights</div>
+
+        <div class="nav-item">Electronics</div>
+
+        <div class="nav-item">Computers</div>
+
+        <div class="nav-item">New Releases</div>
+
+        <div class="nav-item">Bestsellers</div>
+
+        <div class="nav-item">Video Games</div>
+
+        <div class="nav-item">Fashion</div>
+
+        <div class="nav-item">Home & Kitchen</div>
+
+        <div class="nav-item">
+            Grocery & Gourmet Foods
+        </div>
+
+        <div class="nav-item">Baby</div>
+
+        <div class="nav-item">Books</div>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- We'll build this later -->
+
+    </main>
+
+
+    <script src="{% static 'js/script.js' %}"></script>
+
+</body>
+
+</html>
